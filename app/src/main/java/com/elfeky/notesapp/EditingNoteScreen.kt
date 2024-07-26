@@ -46,7 +46,7 @@ fun EditingNoteScreen(
             label = {
                 Text(text = "Note Title")
             },
-            modifier = modifier.fillMaxWidth()
+            modifier = modifier.fillMaxWidth().padding(vertical = 16.dp)
         )
 
         OutlinedTextField(
